@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "Consolidated static assets ",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1"
+  },
   "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
     "css-loader": "^0.23.1",
     "eslint": "^2.11.1",
     "html-webpack-plugin": "^2.19.0",
+    "lesslint": "^0.2.2",
     "sass-lint": "^1.7.0",
     "snyk": "^1.14.3",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
     "test": "snyk test",
