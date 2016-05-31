@@ -1,0 +1,23 @@
+{
+  "name": "@jwalsh/wellspring-ui",
+  "description": "Consolidated static assets",
+  "main": "index.js",
+  "authors": [
+    "Jason Walsh <j@wal.sh>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "assets",
+    "javascript",
+    "css"
+  ],
+  "homepage": "https://github.com/jwalsh/wellspring-ui",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
