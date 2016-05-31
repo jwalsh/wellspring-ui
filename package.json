@@ -1,0 +1,29 @@
+{
+  "name": "@jwalsh/wellspring-ui",
+  "version": "1.0.0",
+  "description": "Consolidated static assets ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "snyk": "^1.14.3"
+  },
+  "scripts": {
+    "test": "snyk test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwalsh/wellspring-ui.git"
+  },
+  "keywords": [
+    "assets",
+    "javascript",
+    "css"
+  ],
+  "author": "Jason Walsh <j@wal.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwalsh/wellspring-ui/issues"
+  },
+  "homepage": "https://github.com/jwalsh/wellspring-ui#readme"
+}
