@@ -5,11 +5,18 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "css-loader": "^0.23.1",
     "eslint": "^2.11.1",
-    "snyk": "^1.14.3"
+    "html-webpack-plugin": "^2.19.0",
+    "sass-lint": "^1.7.0",
+    "snyk": "^1.14.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
   },
   "scripts": {
-    "test": "snyk test"
+    "test": "snyk test",
+    "prod": "webpack --progress --colors",
+    "dev": "webpack-dev-server --colors --hot"
   },
   "repository": {
     "type": "git",
